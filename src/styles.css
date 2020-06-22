@@ -1,0 +1,18 @@
+body {
+  font-family: sans-serif;
+  font-size: 15px;
+}
+
+.board-container {
+  display: inline-grid;
+}
+
+.cell {
+  border: 1px solid black;
+  border-collapse: collapse;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
